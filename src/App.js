@@ -1,7 +1,9 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import './assets/css/header.css';
+import './assets/css/footer.css';
+import './assets/css/animate.css';
+import './assets/css/spacing.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
