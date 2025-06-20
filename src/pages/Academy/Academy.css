@@ -1,0 +1,45 @@
+.academy-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .academy-bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  
+  .academy-section {
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .academy-button {
+    width: 250px;
+    height: 200px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #649BCD;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .academy-button:hover {
+    width: 260px;
+    border-color: white;
+    background-color: #3A73A2;
+    color: white;
+  }

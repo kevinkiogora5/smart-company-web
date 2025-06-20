@@ -1,0 +1,68 @@
+.home-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+.b-image { /*WITH THIS CODE, IMAGE FITS EXCELLENTLY*/
+    position: fixed; /* Ensures the background stays fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+    z-index: -1; /* Ensures the background is behind other content */
+    opacity: 0.9; /* 90% opacity */
+  }
+  
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+.home-welcome {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 300px;
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(58, 115, 162, 0.1);/*#3A73A2;/*rgba(243, 240, 240, 0.1);*/
+  }
+
+.home-text {
+    font-family: "Roboto",sans-serif;
+    color: #D4F1F9; 
+    font-size: medium;
+  }
+  
+p {
+  font-weight: 600;
+}
+
+.home-signup {
+  margin: 15px;
+  height: 30px;
+  border-radius: 4px;
+  border-color: black;
+  background-color: #C0D6EF;
+  color: black;
+  font-family: "Roboto",sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  }
+  
+.home-signup:hover {
+    border-color: #C0D6EF;
+    background-color: black;
+    color: #C0D6EF;
+    cursor: pointer;
+  }
